@@ -1,8 +1,8 @@
-# Z  
-![GitHub license](https://img.shields.io/badge/license-GNU-brightgreen)
+# README Generator  
+![GitHub license](https://img.shields.io/badge/license-Open-brightgreen)
 
 ## Description
-Z
+This project generates README file by taking inputs from user through command line.
 
 ## Table of Contents 
 * [Installation](#installation)
@@ -12,16 +12,16 @@ Z
 * [License](#license)
 
 ## Installation
-The following  dependencies must be installed to run the application: Z
+The following  dependencies must be installed to run the application: inquirer
 
 ## Usage
-​This application is used for Z
+​This application is used for generating README file
 
 ## License
-This project is under the GNU license.
+This project is under the Open license.
 
 ## Contributing
-​Contributors: Z
+​Contributors: Ali Demir
 
 ## Tests
-To run tests, you need to run the following command: Z
+To run tests, you need to run the following command: node index.js

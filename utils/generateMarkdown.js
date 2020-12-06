@@ -27,6 +27,13 @@ This project is under the ${data.license} license.
 
 ## Tests
 To run tests, you need to run the following command: ${data.test}
+
+<br /> 
+
+My GitHub username: [${data.username}](https://github.com/${data.username})
+<br />
+You can ask your questions at: ${data.email}
+
 `;
 
 }

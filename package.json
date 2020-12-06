@@ -6,8 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alidemirbay/Web-ReadmeGenerator.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alidemirbay/Web-ReadmeGenerator/issues"
+  },
+  "homepage": "https://github.com/alidemirbay/Web-ReadmeGenerator#readme",
+  
   "dependencies": {
     "inquirer": "^6.5.2"
   }
