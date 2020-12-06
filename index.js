@@ -18,7 +18,7 @@ const questions = [
     },
     {
         type: "input",
-        message: "What  dependencies must be installed to run this app?",
+        message: "What dependencies must be installed to run this app?",
         name: "installation",
     },
     {
@@ -65,7 +65,7 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile("./readme/" + fileName, data, function (err) {
+    fs.writeFile("./generated-readme/" + fileName, data, function (err) {
         if (err) {
             return console.log(err);
         }
@@ -77,7 +77,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions)
         .then(function (data) {
-            writeToFile("DemoREADME.md", generatorMarkdown(data));
+            writeToFile("README.md", generatorMarkdown(data));
         })
 }
 
