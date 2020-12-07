@@ -12,10 +12,10 @@ This project generates README file by taking inputs from user through command li
 * [License](#license)
 
 ## Installation
-The following  dependencies must be installed to run the application: inquirer
+The following  dependencies must be installed to run the application: npm inquirer
 
 ## Usage
-​This application is used for ​This application is used for ​This application is used for generating README file
+​This application is used for generating README file
 
 ## License
 This project is under the Open license.
