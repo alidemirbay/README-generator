@@ -3,8 +3,7 @@
 
 ## Description
 This is node.js project generates README file by taking inputs from user through command line.
-A generated sample [README](./generated-readme/README.md)  
-   with this app.
+A generated sample [README](./generated-readme/README.md) with this app.
 ## Table of Contents 
 * [User Story](#userstory)
 * [Installation](#installation)
@@ -45,7 +44,7 @@ THEN I am taken to the corresponding section of the README
 ```
 
 ## Installation
-The following  dependencies must be installed to run the application: npm inquire
+The following  dependencies must be installed to run the application: npm inquirer
 
 ## Usage
 ​This application is used for ​This application is used for generating README file
